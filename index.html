@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Calls list Students</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://image.flaticon.com/icons/png/512/194/194931.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="https://www.flaticon.com/svg/static/icons/svg/2784/2784461.svg" alt="">
+            </div>
+            <div class="text">
+                <h4> <b>CRUD Simple</b> List Students</h4>
+            </div>
+            <div class="border_all">
+              <!-- tem uma borda aqui ó -->
+            </div>
+            <div class="content_text">
+              <img src="https://flaticons.net/icon.php?slug_category=mobile-application&slug_icon=settings-02" alt="">
+              <div class="components"> Components </div>
+              <img class="arrow_rigth" src="https://www.brother.com.mm/-/media/ap/Common/Microsite/solution/images/optimize/logistics/footer-top/arrow-icon-white-29.ashx" alt="">
+            </div>
+        </div>
+        <div class="bar">
+            <div class="name_img">
+                <h4>Teacher</h4>
+                <img class="avatar" src="https://www.flaticon.com/svg/static/icons/svg/2784/2784488.svg" alt="">
+                <img  class="arrow_bottom" src="https://image.flaticon.com/icons/png/512/60/60995.png" alt="">
+            </div>
+        </div>
+    </header>  
+    <div class="container_table">
+        <div class="search">
+        <h1>List from Students</h1>
+        <input type="button" value="New">
+        <input class="search_camp" type="search" placeholder="Search here!" id="search" name="search camp">
+        <input class="submit" type="submit" value="Submit">
+        </div>
+        <table>
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scoper="col">Resistrion number</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Courso</th>
+                    <th scoper="col">Room</th>
+                    <th scope="col">Period</th>
+                    <th scoper="col">Actions</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                      <td>
+                      <span>
+                      <input type="checkbox" name="option[]" id="checkbox01" value="1">
+                      </span>
+                      </td>
+                    <td>15336753</td>
+                    <td>Mark</td>
+                    <td>Full Stack Develop</td>
+                    <td>1-A</td>
+                    <td>4° Period</td>
+                    <td>
+                      <input class="edit" type="submit" value="Edit">
+                      <input class="delete" type="submit" value="Delete">
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <span>
+                      <input type="checkbox" name="option[]" id="checkbox01" value="2">
+                      </span>
+                      </td>
+                    <td>15336159</td>
+                    <td>Jacob</td>
+                    <td>java Script</td>
+                    <td>2-A</td>
+                    <td>4° Period</td>
+                    <td>
+                      <input class="edit" type="submit" value="Edit">
+                      <input class="delete" type="submit" value="Delete">
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <span>
+                      <input type="checkbox" name="option[]" id="checkbox01" value="1">
+                      </span>
+                      </td>
+                      <td>15336852</td>
+                    <td>Larry</td>
+                    <td>Phython</td>
+                     <td>3-A</td>
+                    <td>3° Period</td>
+                    <td>
+                      <input class="edit" type="button" value="Edit">
+                      <input class="delete" type="button" value="Delete">
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                    <span>
+                    <input type="checkbox" name="option[]" id="checkbox01" value="1">
+                    </span>
+                    </td>
+                  <td>15336961</td>
+                  <td>William</td>
+                  <td>C#</td>
+                  <td>4-A</td>
+                  <td>1° Period</td>
+                  <td>
+                    <input class="edit" type="submit" value="Edit">
+                    <input class="delete" type="submit" value="Delete">
+                  </td>
+                </tr>
+
+                </tbody>
+                
+        </table>     
+        <div class="list_number">
+          <div class="text_page"> Showing <b> 5 </b> out of <b> 100 </b> entries</div>
+          <ul class="pagination">
+            <li class="page-item"> <a href="#">Previous</a></li>
+            <li class="page-item"><a href="#" class="page-link">1</a></li>
+            <li class="page-item"><a href="#" class="page-link">2</a></li>
+            <li class="page-item"><a href="#" class="page-link">3</a></li>
+            <li class="page-item"><a href="#" class="page-link">4</a></li>
+            <li class="page-item"><a href="#" class="page-link">5</a></li>
+            <li class="page-item"><a href="#" class="page-link">6</a></li>
+            <li class="page-item"><a href="#" class="page-link">7</a></li>
+            <li class="page-item"><a href="#" class="page-link">Next</a></li>
+          </ul>
+        </div>   
+    </div>
+</body>
+</html>
